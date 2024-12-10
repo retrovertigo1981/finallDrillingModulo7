@@ -1,0 +1,12 @@
+{
+  "name": "finalldrillingmodulo7",
+  "version": "1.0.0",
+  "description": "Final Drilling del Modulo 7 del Bootcamp Desarrollo FullStack JavaScript Talento Digital",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "author": "Sebastián Peña <pjfanchile@gmail.com>",
+  "license": "ISC"
+}
