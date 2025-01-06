@@ -2,7 +2,7 @@ const express = require('express');
 const app = express();
 const { UserRouter, BootcampRouter } = require('./routes/index.routes.js');
 
-const PORT = process.env.PORT || 3001;
+const PORT = process.env.PORT || 3000;
 
 app.use(express.json());
 
