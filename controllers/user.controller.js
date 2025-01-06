@@ -15,8 +15,8 @@ UsersController.getAllUsers = async (req, res, next) => {
       },
     });
     return res.json(users);
-  } catch (err) {
-    console.log(err);
+  } catch (error) {
+    console.log(error);
     return res.status(500).json({ message: 'Internal Server Error' });
   }
 };
