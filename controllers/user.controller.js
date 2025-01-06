@@ -7,7 +7,13 @@ const UsersController = {};
 
 UsersController.getAllUsers = async (req, res, next) => {
   try {
-    const users = await User.findAll({ order: [['id', 'ASC']] });
+    const users = await User.findAll({
+      order: [['id', 'ASC']],
+      include: {
+        model: Bootcamp,
+        through: { attributes: [] },
+      },
+    });
     return res.json(users);
   } catch (err) {
     console.log(err);
