@@ -5,7 +5,7 @@ Este proyecto corresponde al trabajo final del Módulo 7 del Bootcamp de Desarro
 
 ## Descripción
 
-El objetivo de este proyecto es aplicar los conocimientos adquiridos en el módulo, desarrollando una aplicación que [descripción breve de la funcionalidad principal de la aplicación].
+El objetivo de este proyecto es aplicar los conocimientos adquiridos en el módulo, desarrollando una aplicación que gestiona los cursos y Bootcamps de una determinada empresa de adiestramiento.
 
 ## Instalación
 
@@ -55,7 +55,7 @@ La aplicación estará disponible en `http://localhost:3000`.
 
 - **Node.js** y **Express**: Para el servidor backend.
 - **Sequelize**: ORM para la gestión de la base de datos.
-- **[Otra tecnología o biblioteca relevante]**
+- **Insomnia**: plataforma de desarrollo de API para diseñar, probar y depurar la API de manera eficiente.
 
 
 ## Licencia
